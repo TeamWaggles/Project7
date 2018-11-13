@@ -1,44 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[TOC]
+# Neightborhood-Map - React Project
 
-## Available Scripts
+This project uses the map API from Google along with the location and address API from Foursquare. The map application displays a list that shows each attraction on the map. A search bar is provided in order to filter the location and map icon.
 
-In the project directory, you can run:
 
-### `npm start`
+## Create React App
+This project was bootstrapped with Create React App. You can find more information on how to perform common tasks here.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instructions
+- Use npm install in order to install the proper dependecies (Be careful not to install dependecies globally)
+- Make sure that the dependecies are located in the proper section with the package.json file
+- Git clone the file
+- Start the development server with npm start
+- Once running the application will display a map with markers along with a search bar that will filter the markers
+- Each marker will show it's title and address when clicked on.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Resources
+Special thanks to Jason Michael White [FEND] Project Coach, Forrest Walker from FEND-proj-7 & Mayguen Ojeda from FEND-proj-7 along with the Udacity community for providing guidance on this project.
 
-### `npm test`
+Onadipe, Kahinde (2018) Udacity | Neighborhood Map [2] - Neighborhood App - Part 5: Filtering Locations and Markers] https://www.youtube.com/watch?v=kadSBAsjDXI
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Waite, Ryan (2018) Coding Session - Google Maps With React JS https://www.youtube.com/watch?v=5J6fs_BlVC0&t=3539s
 
-### `npm run build`
+Foursquare Developers (2018) Search for Venues https://developer.foursquare.com/docs/api/venues/search
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Google Maps Platform https://developers.google.com/maps/documentation/javascript/markers
